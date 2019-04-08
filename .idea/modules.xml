@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gm-service.iml" filepath="$PROJECT_DIR$/gm-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gm-service-user/gm-service-user.iml" filepath="$PROJECT_DIR$/gm-service-user/gm-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gm-service-fee/gmservicefee.iml" filepath="$PROJECT_DIR$/gm-service-fee/gmservicefee.iml" />
     </modules>
   </component>
 </project>

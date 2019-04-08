@@ -8,6 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>gm-service-user</module>
+        <module>gm-service-fee</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -37,6 +38,7 @@
         <dubbo.version>2.7.0</dubbo.version>
         <curator.version>4.0.1</curator.version>
         <zookeeper.version>3.4.13</zookeeper.version>
+        <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
     </properties>
 	
     <dependencyManagement>
@@ -104,6 +106,18 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
                 <scope>runtime</scope>
+            </dependency>
+
+            <!--配置中心 !-->
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-starter</artifactId>
+                <version>${nacos-config-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.boot</groupId>
+                <artifactId>nacos-config-spring-boot-actuator</artifactId>
+                <version>${nacos-config-spring-boot.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
